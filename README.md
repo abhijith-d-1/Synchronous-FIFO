@@ -2,6 +2,11 @@
 
 A parameterized **Synchronous FIFO** memory controller implemented in Verilog. This design features a single-clock architecture with chip-select (cs) control and configurable Depth/Width. It utilizes an $N+1$ bit pointer technique to accurately detect Full and Empty states via MSB comparison, verified by a testbench covering various R/W scenarios.
 
+##  Block Diagram
+![FIFO Block Diagram](https://github.com/abhijith-d-1/Synchronous-FIFO/blob/262ec44a4e87a597fb20bc4eed9e83a429869350/Block%20diagram.png)
+
+##  Data flow_mode
+![Data flow_model](https://github.com/abhijith-d-1/Synchronous-FIFO/blob/262ec44a4e87a597fb20bc4eed9e83a429869350/Data%20flow_model.png)
 
 ## Features
 * **Single-Clock Domain:** Synchronous read and write operations.
